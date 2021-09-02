@@ -1,0 +1,71 @@
+#****************Recursion_program***************************
+
+
+
+def sain(n):  # cally=sain(n)
+    if n>1:
+        a=n+sain(n-1)   # caller=sain(n-1)
+        print(a)
+        return a
+    else:
+        return 1 # return value working for caller function
+sain(4)  #caller
+
+# or(optional method)
+
+#print(sain(4))  #caller
+
+
+
+#*************///////////////***********////////////**********
+
+'''
+n=2
+
+def sain(n):  # cally=sain(n)
+    if n>1:
+        a=n+1  # caller=sain(n-1)
+        print(a)
+        return a
+    else:
+        return 3  # return value working for caller function
+sain(4)  #caller
+
+'''
+'''
+n=3
+
+def sain(n):  # cally=sain(n)
+    if n>1:
+        a=n+3  # caller=sain(n-1) 
+        print(a)
+        return a
+    else:
+        return 6    # return value working for caller function
+sain(4)  #caller
+
+'''
+'''
+n=4
+
+def sain(n):  # cally=sain(n)
+    if n>1:
+        a=n+6   # caller=sain(n-1)
+        print(a)
+        return a
+    else:
+        return 10   # return value working for caller function
+sain(4)  #caller
+
+'''
+
+
+
+#/////////////////***Output Output Output***////////////////////////////
+
+
+3
+6
+10
+
+
